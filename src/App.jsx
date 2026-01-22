@@ -3,10 +3,12 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
+import LoginView from "./pages/LoginView";
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-900">
-      <h1 className="text-4xl font-bold text-cyan-400">Tailwind v4 aktif 🚀</h1>
+    <div>
+      <LoginView />
     </div>
   );
 }
